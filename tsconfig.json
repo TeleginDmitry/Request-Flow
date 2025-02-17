@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "target": "ES2020",
+    "module": "ESNext",
+    "noEmit": false,
+    "allowJs": true,
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveValueImports": false,
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@components/*": ["./src/components/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@mytypes/*": ["./src/types/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@router/*": ["./src/router/*"],
+      "@store/*": ["./src/store/*"],
+      "@providers/*": ["./src/providers/*"]
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": ["src/**/*", "jest.config.ts"],
+  "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+}

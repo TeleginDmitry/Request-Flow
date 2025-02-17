@@ -1,0 +1,14 @@
+.row:hover .tool {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.row .tool {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tool {
+    width: fit-content;
+    min-width: 0;
+}

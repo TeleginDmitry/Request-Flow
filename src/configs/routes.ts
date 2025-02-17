@@ -1,0 +1,14 @@
+export const REQUESTS_PAGE = "/";
+export const CREATE_REQUEST_PAGE = "/create-request";
+export const EDIT_REQUEST_PAGE = "/edit";
+export const EDIT_REQUEST_SINGLE_PAGE = "/edit/:requestId";
+export const AUTH_PAGE = "/auth";
+export const ARCHIVE_PAGE = "/archive";
+export const SEARCH_PAGE = "/search";
+export const HISTORY_PAGE = "/history";
+export const HISTORY_SINGLE_PAGE = "/history/:requestId";
+export const PROFILE_PAGE = "/profile";
+export const USERS_PAGE = "/users";
+export const USERS_SINGLE_PAGE = "/users/:userId";
+export const DIVISIONS_PAGE = "/divisions";
+export const EDIT_DIVISION_PAGE = "/divisions/:divisionId";

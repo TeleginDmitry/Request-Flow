@@ -1,0 +1,62 @@
+.accountDataWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.accountData {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  min-width: 200px;
+  border-radius: 10px;
+  background: white;
+  color: #333;
+  box-shadow: var(--custom-shadow-1);
+}
+
+.userName {
+  text-align: center;
+  margin-top: 8px !important;
+  font-size: 15px;
+}
+
+.userEmail {
+  margin: 5px 0 5px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.userDivision {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  padding: 5px 8px;
+  background: var(--primary-color);
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 0;
+}
+
+.userRole {
+  margin: 5px 0 15px 0;
+  padding: 5px 10px;
+  color: #fff;
+  background: var(--primary-color-lighten);
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
